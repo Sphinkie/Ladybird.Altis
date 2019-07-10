@@ -1,0 +1,272 @@
+
+// ----------------------------------------------------------------------------------
+// Fichiers sons (voices)
+// ----------------------------------------------------------------------------------
+class CfgSounds
+{
+	sounds[] = {muller1,muller2,muller3,parking1,parking2,parking3,pilote1,pilote2,
+		gluck1,gluck2,gluck3,gluck4,gluck5,gluck6,
+		corres01,corres02,corres03,corres10,corres11,corres12,corres13,corres14
+	};
+	class muller1
+	{
+		// Col Gluck wants to see you at the Airbase.
+		name = "muller1";
+		sound[] = {"\voices\muller_1.ogg", db+20, 1.0};  // filename, volume, pitch
+		titles[] = {1,""};	// subtitle delay in seconds, subtitle text 
+	};
+	class muller2
+	{
+		// Take a vehicule near the old cemetary, east of town.
+		name = "muller2";
+		sound[] = {"\voices\muller_2.ogg", db+20, 1.0}; 
+		titles[] = {1,""};
+	};
+	class muller3
+	{
+		// Dismiss.
+		name = "muller3";
+		sound[] = {"\voices\muller_3.ogg", db+20, 1.0}; 
+		titles[] = {1,""};
+	};
+	class parking1
+	{
+		// Take a vehicule here.
+		name = "parking1";
+		sound[] = {"voices\parking_1.ogg", db+16, 1.0};
+		titles[] = {0,""};
+	};
+	class parking2
+	{
+		// Follow to road, direction Athira.
+		name = "parking2";
+		sound[] = {"voices\parking_2.ogg", db+16, 1.0};
+		titles[] = {0,""};
+	};
+	class parking3
+	{
+		// Beware the mines fields.
+		name = "parking3";
+		sound[] = {"voices\parking_3.ogg", db+16, 1.0};
+		titles[] = {0,""};
+	};
+	class pilote1
+	{
+		// Hi guys!
+		name = "pilote1";
+		sound[] = {"voices\pilote_1.ogg", db+10, 1.0};
+		titles[] = {1,""};
+	};
+	class pilote2
+	{
+		// Take us back to the base
+		name = "pilote2";
+		sound[] = {"voices\pilote_2.ogg", db+10, 1.0};
+		titles[] = {0,""};
+	};
+	class corres01
+	{
+		// Hey! Americans! come here!
+		name = "corres01";
+		sound[] = {"voices\corres_01.ogg", db+10, 1.0};
+		titles[] = {0,""};
+	};
+	class corres02
+	{
+		// Follow me. And take care of the patrols.
+		name = "corres02";
+		sound[] = {"voices\corres_02.ogg", db+10, 1.0};
+		titles[] = {0,""};
+	};
+	class corres03
+	{
+		// Hurry. It is not safe for me to stay here.
+		name = "corres03";
+		sound[] = {"voices\corres_03.ogg", db+10, 1.0};
+		titles[] = {0,""};
+	};
+	class corres10
+	{
+		// This are friends. Your Quads are over there.
+		name = "corres10";
+		sound[] = {"voices\corres_10.ogg", db+10, 1.0};
+		titles[] = {0,""};
+	};
+	class corres11
+	{
+		// The crash was near Synneforos Mountain. You need to go there first.
+		name = "corres11";
+		sound[] = {"voices\corres_11.ogg", db+10, 1.0};
+		titles[] = {0,""};
+	};
+	class corres12
+	{
+		// I wait for you here. Come back with your friends and the Quads.
+		name = "corres12";
+		sound[] = {"voices\corres_12.ogg", db+10, 1.0};
+		titles[] = {0,""};
+	};
+	class corres13
+	{
+		// And beware of the ennemy patrols. Avoid the roads. They also have spotters on the top of the hills.
+		name = "corres13";
+		sound[] = {"voices\corres_13.ogg", db+10, 1.0};
+		titles[] = {0,""};
+	};
+	class corres14
+	{
+		// If they see you, they will call reinforcement immediately.
+		name = "corres14";
+		sound[] = {"voices\corres_14.ogg", db+10, 1.0};
+		titles[] = {0,""};
+	};
+	class corres20
+	{
+		name = "corres20";
+		sound[] = {"voices\corres_20.ogg", db+10, 1.0};
+		titles[] = {0,"Hey! Attention!"};
+	};
+	class corres21
+	{
+		name = "corres21";
+		sound[] = {"voices\corres_21.ogg", db+10, 1.0};
+		titles[] = {0,"They is an ambush near the helicopter!"};
+	};
+	class gluck1
+	{
+		name = "gluck1";
+		sound[] = {"voices\gluck_1.ogg", db+10, 1.0};
+		titles[] = {0,""};
+		// titles[] = {0,"Bonjour messieurs..."};
+		// titles[] = {0,"Goodmorning sirs..."};
+	};
+	class gluck2
+	{
+		name = "gluck2";
+		sound[] = {"voices\gluck_2.ogg", db+10, 1.0};
+		titles[] = {0,"Un hélicoptère allié qui effectuait une reconnaissance en zone ennemie s'est écrasé dans le Nord de l'ile."};
+		// titles[] = {0,"A recon chopper just crashed in the north of the island."};
+	};
+	class gluck3
+	{
+		name = "gluck3";
+		sound[] = {"voices\gluck_3.ogg", db+10, 1.0};
+		titles[] = {0,"Retrouvez les rescapés, s'il y en a, et ramenez-les."};
+		// titles[] = {0,"Find any survivor and bring him back here."};
+	};
+	class gluck4
+	{
+		name = "gluck4";
+		sound[] = {"voices\gluck_4.ogg", db+10, 1.0};
+		titles[] = {0,"Voici votre Ordre de Mission et votre Plan de Vol."};
+		// titles[] = {0,"Here are your orders."};
+	};
+	class gluck5
+	{
+		name = "gluck5";
+		sound[] = {"voices\gluck_5.ogg", db+10, 1.0};
+		titles[] = {0,"Etudiez-les avant de décoller."};
+		// titles[] = {0,"Read them carefully!"};
+	};
+	class gluck6
+	{
+		name = "gluck6";
+		sound[] = {"voices\gluck_6.ogg", db+10, 1.0};
+		titles[] = {0,"Messieurs, votre hélicoptère vous attend."};
+		// titles[] = {0,"Sirs, your hummingbird is waiting for you."};
+	};
+
+};
+
+
+// ----------------------------------------------------------------------------------
+// Messages Radio
+// ----------------------------------------------------------------------------------
+class CfgRadio
+{
+	sounds[] = {};
+	class RadioMsg1
+	{
+		name = "RadioMsg1";
+		sound[] = {"\voices\dispatch_1.ogg", db+20, 1.0};
+		title = "Dispatch à Alpha. Renforts blindés en approche de Pyrgos. Tenez bon, les gars.";
+	};
+	class RadioMsg2
+	{
+		name = "RadioMsg2";
+		sound[] = {"\voices\dispatch_2.ogg", db+20, 1.0};
+		title = "Dispatch à Tous. Liberez la route de Pyrgos. Laissez passer le convoi prioritaire.";
+	};
+	class RadioMsg10
+	{
+		name = "RadioMsg10";
+		sound[] = {"\voices\radio_10.ogg", db+20, 1.0};
+		title = "Tour de Controle à Alpha. Les rescapés du crash ont pris contact.";
+	};
+	class RadioMsg11
+	{
+		name = "RadioMsg11";
+		sound[] = {"\voices\radio_11.ogg", db+20, 1.0};
+		title = "Controle à Alpha. Ils signalent la tour de communication de Synneforos à l'azimut 30 de leur position.";
+	};
+	class RadioMsg12
+	{
+		name = "RadioMsg12";
+		sound[] = {"\voices\radio_12.ogg", db+20, 1.0};
+		title = "Je répète. Synneforos au 30 de leur position.";
+	};
+	class RadioMsg13
+	{
+		name = "RadioMsg13";
+		sound[] = {"\voices\radio_13.ogg", db+20, 1.0};
+		title = "Checkpoint Control à unité en approche. Ralentissez! Arretez-vous à la barrière.";
+	};
+	class RadioMsg14
+	{
+		name = "RadioMsg14";
+		sound[] = {"\voices\radio_14.ogg", db+20, 1.0};
+		title = "Bon boulot les gars. Posez vous a la base et venez faire votre rapport.";
+	};
+	class RadioMsg15 	{
+		name = "RadioMsg15";
+		sound[] = {"\voices\radio_15.ogg", db+20, 1.0};
+		title = "Ici le colonel Gluck. C'est pas trop tot! Rejoignez-moi immédiatement à la tour de controle."
+	};
+};
+
+
+// ----------------------------------------------------------------------------------
+// Ecran pour le debriefing final
+// ----------------------------------------------------------------------------------
+class CfgDebriefing
+{  
+
+	class MISSION_SUCCESS
+	{
+        title = "MISSION ACCOMPLIE";					    // Titre qui apparait en gros
+        subtitle = "Récupération de l'équipage perdu";      // Sous-titre qui apparait en-dessous du titre
+        description = "Bravo, vous avez retrouvé et ramené les rescapés à la base!";
+//        backgroundPicture = "";				// backgroundPicture : Image de fond. Par défaut, c'est l'image définie dans "loadScreen" qui est prise en compte.
+        picture = "debriefing.jpg"; 										// Image qui apparait au-dessus du titre
+        pictureColor[] = {1,1,1,1};							// Couleur de l'image. Si vous laissez "{1,1,1,1}", c'est la couleur de l'image qui sera prise en compte.
+	};
+
+	class MISSION_FAILED
+	{
+        title = "ECHEC";
+        subtitle = "Les membres de l'équipage sont morts";
+        description = "Vous n'avez pas réussi à ramener les rescapés à la base!";
+        picture = "";
+        pictureColor[] = {1,1,1,1};
+	};
+
+
+};
+
+
+// ----------------------------------------------------------------------------------
+// Ecran pour le Briefing
+// ----------------------------------------------------------------------------------
+loadScreen = "briefing2.jpg";
+
+
