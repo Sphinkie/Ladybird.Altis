@@ -18,7 +18,7 @@ copilote setBehaviour "SAFE";
 // -------------------------------------------------------------
 // Dialogue
 // -------------------------------------------------------------
-pilote setGroupID["survivor pilot"];
+pilote setGroupID ["survivor pilot"];
 sleep 3;
 pilote sideChat "Salut les gars, on vous attendait avec impatience!";
 pilote say "pilote1";
@@ -60,7 +60,7 @@ hideObject paysan2;
 //gluck enableAI "PATH";
 //gluck enableAI "ALL";
 gluck call BIS_fnc_ambientAnim__terminate;	// pour ne pas que le perso revienne automatiquement à sa place
-gluck setPos [getMarkerPos "TC" select 0, getMarkerPos "TC" select 1, 0 ];
+gluck setPos [ getMarkerPos "TC" select 0, getMarkerPos "TC" select 1, 0 ];
 [gluck, "GUARD", "ASIS"] call BIS_fnc_ambientAnim; 
 
 /*
@@ -73,7 +73,7 @@ gluck setVehiclePosition [[getMarkerPos "TC" select 0, getMarkerPos "TC" select 
 // ---------------------------------------------
 // Mise en place de l'embuscade Opfor à la LZ
 // ---------------------------------------------
-ambush1 setPos [(getMarkerPos "LZ" select 0)+5,  (getMarkerPos "LZ" select 1)-5, 0 ]; 
-ambush2 setPos [(getMarkerPos "LZ" select 0)-5,  (getMarkerPos "LZ" select 1)+5, 0 ]; 
-ifrit   setPos [(getMarkerPos "LZ" select 0)+35, (getMarkerPos "LZ" select 1)-20, 0 ]; 
+ambush1 setPos [(getMarkerPos "LZ" select 0)+5,  ( getMarkerPos "LZ" select 1)-5, 0 ]; 
+ambush2 setPos [(getMarkerPos "LZ" select 0)-5,  ( getMarkerPos "LZ" select 1)+5, 0 ]; 
+ifrit   setPos [(getMarkerPos "LZ" select 0)+35, ( getMarkerPos "LZ" select 1)-20, 0 ]; 
 

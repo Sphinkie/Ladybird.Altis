@@ -7,7 +7,7 @@
 // Dialogue
 // -------------------------------------------------------
 sleep 2;
-correspondant setRandomlip true; 
+correspondant setRandomLip true; 
 correspondant globalChat "This are friends. Your Quads are over there.";
 correspondant say "corres10";
 sleep 3;

@@ -7,7 +7,7 @@
 // ---------------------------------------------------------------
 // Dialogue
 // ---------------------------------------------------------------
-correspondant setRandomlip true; 
+correspondant setRandomLip true; 
 correspondant globalChat "Follow me. And take care of the patrols.";
 correspondant say "corres02";
 sleep 3;
@@ -17,5 +17,5 @@ sleep 3;
 correspondant setRandomLip false;
 sleep 3;
 
-//[correspondant, ""] call BIS_fnc_AmbientAnim;
+//[correspondant, ""] call BIS_fnc_ambientAnim;
 // correspondant setCurrentWaypoint WP_1

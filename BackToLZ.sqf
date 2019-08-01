@@ -8,13 +8,13 @@
 // ----------------------------------------------------------------
 correspondant setSpeedMode "FULL";
 correspondant move position player; 
-correspondant switchmove "Acts_JetsShooterIdleMoveaway_loop_m";
+correspondant switchMove "Acts_JetsShooterIdleMoveaway_loop_m";
 
 // ----------------------------------------------------------------
 // Dialogue
 // ----------------------------------------------------------------
 sleep 3;
-correspondant setRandomlip true; 
+correspondant setRandomLip true; 
 correspondant say "corres20";
 sleep 1;
 correspondant say "corres21";
@@ -22,7 +22,7 @@ sleep 3;
 correspondant setRandomLip false;
 sleep 3;
 
-correspondant switchmove "Acts_CivilIdle_1";
+correspondant switchMove "Acts_CivilIdle_1";
 
 
 // ---------------------------------------------

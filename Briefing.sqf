@@ -35,9 +35,9 @@ player createDiaryRecord ["Diary", ["Alpha team", "L'équipe <marker name='marke
 
 FNC_taskParking = 
 {
-	[player,"taskParking",["","",""],objNull,"CREATED",4,true,"talk"] call BIS_fnc_taskCreate;
-	["taskParking",["Rejoindre l'escouade située près du cimetière, à l'ouest de Pyrgos. Se présenter à l'officier responsable, et emprunter un véhicule. ","Emprunter  un véhicule au vieux cimetière","Parking"]] call BIS_fnc_taskSetDescription;
-	["taskParking","parking"] call BIS_fnc_taskSetDestination;
+	[ player, "taskParking",["","",""], objNull,"CREATED",4, true,"talk"] call BIS_fnc_taskCreate;
+	[ "taskParking",["Rejoindre l'escouade située près du cimetière, à l'ouest de Pyrgos. Se présenter à l'officier responsable, et emprunter un véhicule. ","Emprunter  un véhicule au vieux cimetière","Parking"]] call BIS_fnc_taskSetDescription;
+	[ "taskParking","parking"] call BIS_fnc_taskSetDestination;
 	// Affichage des markers
 	"marker_39" setMarkerAlpha 1;
 };
@@ -46,7 +46,7 @@ FNC_taskParking =
 FNC_taskHeli = 
 {
 	// owner,taskID,[description], destination, state, priority, showNotification, type
-	[player,"taskHeli",["","",""],objNull,"CREATED",4,true,"heli"] call BIS_fnc_taskCreate;
+	[ player,"taskHeli",["","",""], objNull,"CREATED",4, true,"heli"] call BIS_fnc_taskCreate;
 	// description = ["description", "title", "marker"]
 	["taskHeli",["Embarquez dans l'helicoptère qui vous attend au <marker name='H3'>Hangar 3</marker>.","Embarquer dans l'hélicoptère","Hélico"]] call BIS_fnc_taskSetDescription;
 	["taskHeli","H3"] call BIS_fnc_taskSetDestination;
@@ -56,7 +56,7 @@ FNC_taskHeli =
 
 FNC_taskLandingzone = 
 {
-	[player,"taskLandingZone",["","",""],objNull,"CREATED",3,true,"land"] call BIS_fnc_taskCreate;
+	[ player,"taskLandingZone",["","",""], objNull,"CREATED",3, true,"land"] call BIS_fnc_taskCreate;
 	["taskLandingZone", 
 		["Rejoignez la <marker name='LZ'>LandingZone</marker> en suivant le plan de vol, et parlez à notre correspondant sur site. Il vous fournira des quads.",
 		 "Rejoindre Landing Zone","Landing Zone"
@@ -77,7 +77,7 @@ FNC_taskLandingzone =
 
 FNC_taskCrashzone = 
 {
-	[player,"taskCrashzone",["","",""],objNull,"CREATED",2,true,"search"] call BIS_fnc_taskCreate;
+	[ player, "taskCrashzone", ["","",""], objNull,"CREATED", 2, true, "search"] call BIS_fnc_taskCreate;
 	["taskCrashzone", 
 		["Identifiez et rejoignez la zone du <marker name='CZ'>crash</marker> de notre hélicoptère de reconnaissance et recupérez les rescapés.",
 		"Trouvez la zone du crash et les survivants.","Crash Zone"]]call BIS_fnc_taskSetDescription;
@@ -87,7 +87,7 @@ FNC_taskCrashzone =
 
 FNC_taskEvac = 
 {
-	[player,"taskEvac",["","",""],objNull,"CREATED",1,true,"takeoff"] call BIS_fnc_taskCreate;
+	[ player, "taskEvac", ["","",""], objNull, "CREATED", 1, true, "takeoff"] call BIS_fnc_taskCreate;
 	["taskEvac", 
 	  ["Rendez les Quads et ramenez les survivants à la <marker name='TC'>base</marker>.",
 	  "Ramener les survivants à la base.","Evac"]] call BIS_fnc_taskSetDescription;

@@ -1,7 +1,7 @@
 ﻿// --------------------------------------------------------------------------------------------------
 // Briefing de Gluck
 // --------------------------------------------------------------------------------------------------
-gluck setRandomlip true; 
+gluck setRandomLip true; 
 gluck sideChat "Bonjour Messieurs...";
 gluck say "gluck1";
 sleep 2;
