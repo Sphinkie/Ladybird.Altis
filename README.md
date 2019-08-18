@@ -1,5 +1,5 @@
 # Ladybird.Altis
-Arma3 coop mission
+Arma3 coop mission.
 
 ## Description
 Vous et votre équipier êtes coincés à Pyrgos sous les bombardements.
@@ -9,4 +9,4 @@ et partir à la recherche d'un hélicopère allié qui s'est écrasé dans les c
 Rechercher l'épave, la détruire et ramener les rescapés à l'aéroport.
 
 ## Installation
-Installer depuis le Steam Workshop, ou copier les fichier dans un sous-répertoire de C:\Users\<username>\Documents\ArmA 3\mpmissions
+Installer depuis le Steam Workshop, ou copier les fichier dans un sous-répertoire de C:\Users\\<username>\Documents\ArmA 3\mpmissions.
